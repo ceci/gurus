@@ -1,0 +1,22 @@
+dt {
+	clear: left;
+	float: left;
+	line-height: 2em;
+	margin-right: 1em;
+}
+dd {
+	line-height: 2em;
+}
+dl {
+	background-color: #FF9999;
+	display: none;
+}
+dl dl {
+	background-color: #99FF99;
+}
+dl dl dl {
+	background-color: #9999FF;
+}
+input {
+	width: 50%;
+}
