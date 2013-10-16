@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
-	<link rel="stylesheet" href="/estilo.css" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="/estilo.css">
 </head>
 <body>
 
@@ -14,72 +14,72 @@
 
 		<dl>
 			<dt>Procedural
-			<dd><input type="text" name="linguagens.procedural" class="devs">
+			<dd><input name="linguagens.procedural" class="devs">
 				<dl>
 					<dt>Bash
-					<dd><input type="text" name="linguagens.procedural.bash" class="devs">
+					<dd><input name="linguagens.procedural.bash" class="devs">
 
 					<dt> C
-					<dd><input type="text" name="linguagens.procedural.c" class="devs">
+					<dd><input name="linguagens.procedural.c" class="devs">
 				</dl>
 			<dt>Orientação a objetos
-			<dd><input type="text" name="linguagens.oo" class="devs">
+			<dd><input name="linguagens.oo" class="devs">
 				<dl>
 					<dt>Java
-					<dd><input type="text" name="linguagens.oo.java" class="devs">
+					<dd><input name="linguagens.oo.java" class="devs">
 						<dl>
 							<dt> Hibernate
-							<dd><input type="text" name="linguagens.oo.java.hibernate" class="devs">
+							<dd><input name="linguagens.oo.java.hibernate" class="devs">
 
 							<dt> VRaptor
-							<dd><input type="text" name="linguagens.oo.java.vraptor" class="devs">
+							<dd><input name="linguagens.oo.java.vraptor" class="devs">
 
 							<dt> Spring
-							<dd><input type="text" name="linguagens.oo.java.spring" class="devs">
+							<dd><input name="linguagens.oo.java.spring" class="devs">
 
 							<dt> JSF
-							<dd><input type="text" name="linguagens.oo.java.jsf" class="devs">
+							<dd><input name="linguagens.oo.java.jsf" class="devs">
 
 							<dt> JavaEE 7
-							<dd><input type="text" name="linguagens.oo.java.javaee7" class="devs">
+							<dd><input name="linguagens.oo.java.javaee7" class="devs">
 
 							<dt> Java 8
-							<dd><input type="text" name="linguagens.oo.java.java8" class="devs">
+							<dd><input name="linguagens.oo.java.java8" class="devs">
 						</dl>
 					<dt> Ruby
-					<dd><input type="text" name="linguagens.oo.ruby" class="devs">
+					<dd><input name="linguagens.oo.ruby" class="devs">
 						<dl>
 							<dt> Rails &amp; Sinatra
-							<dd><input type="text" name="linguagens.oo.ruby.webapps" class="devs">
+							<dd><input name="linguagens.oo.ruby.webapps" class="devs">
 						</dl>
 					<dt> C#
-					<dd><input type="text" name="linguagens.oo.cSharp" class="devs">
+					<dd><input name="linguagens.oo.cSharp" class="devs">
 						<dl>
 							<dt> NHibernate &amp; Entity
-							<dd><input type="text" name="linguagens.oo.cSharp.orm" class="devs">
+							<dd><input name="linguagens.oo.cSharp.orm" class="devs">
 
 							<dt> Asp.net
-							<dd><input type="text" name="linguagens.oo.cSharp.aspNet" class="devs">
+							<dd><input name="linguagens.oo.cSharp.aspNet" class="devs">
 						</dl>
 				</dl>
 			<dt>Funcional
-			<dd><input type="text" name="linguagens.funcional" class="devs">
+			<dd><input name="linguagens.funcional" class="devs">
 				<dl>
 					<dt> Scala
-					<dd><input type="text" name="linguagens.funcional.scala" class="devs">
+					<dd><input name="linguagens.funcional.scala" class="devs">
 						<dl>
 							<dt> Play
-							<dd><input type="text" name="linguagens.funcional.scala.play" class="devs">
+							<dd><input name="linguagens.funcional.scala.play" class="devs">
 						</dl>
 
 					<dt> Javascript
-					<dd><input type="text" name="linguagens.funcional.javascript" class="devs">
+					<dd><input name="linguagens.funcional.javascript" class="devs">
 						<dl>
 							<dt> JQuery
-							<dd><input type="text" name="linguagens.funcional.javascript.jquery" class="devs">
+							<dd><input name="linguagens.funcional.javascript.jquery" class="devs">
 
 							<dt> AngularJS
-							<dd><input type="text" name="linguagens.funcional.javascript.angular" class="devs">
+							<dd><input name="linguagens.funcional.javascript.angular" class="devs">
 						</dl>
 				</dl>
 		</dl>
@@ -90,46 +90,46 @@
 
 		<dl>
 			<dt>Mobile
-			<dd><input type="text" name="plataformas.mobile" class="devs">
+			<dd><input name="plataformas.mobile" class="devs">
 				<dl>
 					<dt>Android
-					<dd><input type="text" name="plataformas.mobile.android" class="devs">
+					<dd><input name="plataformas.mobile.android" class="devs">
 
 					<dt>iOS
-					<dd><input type="text" name="plataformas.mobile.ios" class="devs">
+					<dd><input name="plataformas.mobile.ios" class="devs">
 
 					<dt>Web Mobile
-					<dd><input type="text" name="plataformas.mobile.webMobile" class="devs">
+					<dd><input name="plataformas.mobile.webMobile" class="devs">
 				</dl>
 			<dt>Web front-end
-			<dd><input type="text" name="plataformas.front" class="devs">
+			<dd><input name="plataformas.front" class="devs">
 				<dl>
 					<dt>CSS
-					<dd><input type="text" name="plataformas.front.css" class="devs">
+					<dd><input name="plataformas.front.css" class="devs">
 
 					<dt>HTML
-					<dd><input type="text" name="plataformas.front.html" class="devs">
+					<dd><input name="plataformas.front.html" class="devs">
 				</dl>
 			<dt>Cloud
-			<dd><input type="text" name="plataformas.cloud" class="devs">
+			<dd><input name="plataformas.cloud" class="devs">
 				<dl>
 					<dt>AWS
-					<dd><input type="text" name="plataformas.cloud.aws" class="devs">
+					<dd><input name="plataformas.cloud.aws" class="devs">
 
 					<dt>Google App Engine
-					<dd><input type="text" name="plataformas.cloud.gae" class="devs">
+					<dd><input name="plataformas.cloud.gae" class="devs">
 
 					<dt>Heroku
-					<dd><input type="text" name="plataformas.cloud.heroku" class="devs">
+					<dd><input name="plataformas.cloud.heroku" class="devs">
 				</dl>
 			<dt>Sistemas Operacionais
-			<dd><input type="text" name="plataformas.so" class="devs">
+			<dd><input name="plataformas.so" class="devs">
 				<dl>
 					<dt>*nix
-					<dd><input type="text" name="plataformas.so.unix" class="devs">
+					<dd><input name="plataformas.so.unix" class="devs">
 
 					<dt>Windows
-					<dd><input type="text" name="plataformas.so.windows" class="devs">
+					<dd><input name="plataformas.so.windows" class="devs">
 				</dl>
 		</dl>
 	</div>
@@ -139,95 +139,95 @@
 
 		<dl>
 			<dt>Profiling &amp; métricas
-			<dd><input type="text" name="ferramentas.profiling" class="devs">
+			<dd><input name="ferramentas.profiling" class="devs">
 				<dl>
 					<dt>New Relic
-					<dd><input type="text" name="ferramentas.profiling.relic" class="devs">
+					<dd><input name="ferramentas.profiling.relic" class="devs">
 
 					<dt>Google Analytics
-					<dd><input type="text" name="ferramentas.profiling.analytics" class="devs">
+					<dd><input name="ferramentas.profiling.analytics" class="devs">
 				</dl>
 			<dt>DevOps
-			<dd><input type="text" name="ferramentas.devops" class="devs">
+			<dd><input name="ferramentas.devops" class="devs">
 				<dl>
 					<dt>EC2
-					<dd><input type="text" name="ferramentas.devops.ec2" class="devs">
+					<dd><input name="ferramentas.devops.ec2" class="devs">
 
 					<dt>NGinX
-					<dd><input type="text" name="ferramentas.devops.nginx" class="devs">
+					<dd><input name="ferramentas.devops.nginx" class="devs">
 
 					<dt>Deb packages
-					<dd><input type="text" name="ferramentas.devops.deb" class="devs">
+					<dd><input name="ferramentas.devops.deb" class="devs">
 				</dl>
 			<dt>Versionamento e build
-			<dd><input type="text" name="ferramentas.versaoBuild" class="devs">
+			<dd><input name="ferramentas.versaoBuild" class="devs">
 				<dl>
 					<dt>Build
-					<dd><input type="text" name="ferramentas.versaoBuild.build" class="devs">
+					<dd><input name="ferramentas.versaoBuild.build" class="devs">
 						<dl>
 							<dt>Maven
-							<dd><input type="text" name="ferramentas.versaoBuild.build.maven" class="devs">
+							<dd><input name="ferramentas.versaoBuild.build.maven" class="devs">
 
 							<dt>Ivy
-							<dd><input type="text" name="ferramentas.versaoBuild.build.ivy" class="devs">
+							<dd><input name="ferramentas.versaoBuild.build.ivy" class="devs">
 
 							<dt>Ant
-							<dd><input type="text" name="ferramentas.versaoBuild.build.ant" class="devs">
+							<dd><input name="ferramentas.versaoBuild.build.ant" class="devs">
 
 							<dt>Gradle
-							<dd><input type="text" name="ferramentas.versaoBuild.build.gradle" class="devs">
+							<dd><input name="ferramentas.versaoBuild.build.gradle" class="devs">
 
 							<dt>Front-end build
-							<dd><input type="text" name="ferramentas.versaoBuild.build.frontEndBuild" class="devs">
+							<dd><input name="ferramentas.versaoBuild.build.frontEndBuild" class="devs">
 						</dl>
 					<dt>Integração contínua
-					<dd><input type="text" name="ferramentas.versaoBuild.ci" class="devs">
+					<dd><input name="ferramentas.versaoBuild.ci" class="devs">
 						<dl>
 							<dt>Jenkins
-							<dd><input type="text" name="ferramentas.versaoBuild.ci.jenkins" class="devs">
+							<dd><input name="ferramentas.versaoBuild.ci.jenkins" class="devs">
 
 							<dt>TeamCity
-							<dd><input type="text" name="ferramentas.versaoBuild.ci.teamCity" class="devs">
+							<dd><input name="ferramentas.versaoBuild.ci.teamCity" class="devs">
 						</dl>
 					<dt>Git
-					<dd><input type="text" name="ferramentas.versaoBuild.git" class="devs">
+					<dd><input name="ferramentas.versaoBuild.git" class="devs">
 				</dl>
 			<dt>Editores e IDEs
-			<dd><input type="text" name="ferramentas.editorIde" class="devs">
+			<dd><input name="ferramentas.editorIde" class="devs">
 				<dl>
 					<dt>Eclipse
-					<dd><input type="text" name="ferramentas.editorIde.eclipse" class="devs">
+					<dd><input name="ferramentas.editorIde.eclipse" class="devs">
 
 					<dt>Vim
-					<dd><input type="text" name="ferramentas.editorIde.vim" class="devs">
+					<dd><input name="ferramentas.editorIde.vim" class="devs">
 				</dl>
 			<dt>Bancos de dados
-			<dd><input type="text" name="ferramentas.bd" class="devs">
+			<dd><input name="ferramentas.bd" class="devs">
 				<dl>
 					<dt>Otimização
-					<dd><input type="text" name="ferramentas.bd.otimizacao" class="devs">
+					<dd><input name="ferramentas.bd.otimizacao" class="devs">
 
 					<dt>Relacional
-					<dd><input type="text" name="ferramentas.bd.relacional" class="devs">
+					<dd><input name="ferramentas.bd.relacional" class="devs">
 						<dl>
 							<dt>MySQL
-							<dd><input type="text" name="ferramentas.bd.relacional.mysql" class="devs">
+							<dd><input name="ferramentas.bd.relacional.mysql" class="devs">
 
 							<dt>Postgre
-							<dd><input type="text" name="ferramentas.bd.relacional.postgre" class="devs">
+							<dd><input name="ferramentas.bd.relacional.postgre" class="devs">
 						</dl>
 
 					<dt>Não-relacional
-					<dd><input type="text" name="ferramentas.bd.naoRelacional" class="devs">
+					<dd><input name="ferramentas.bd.naoRelacional" class="devs">
 						<dl>
 							<dt>Neo4J
-							<dd><input type="text" name="ferramentas.bd.naoRelacional.neo4j" class="devs">
+							<dd><input name="ferramentas.bd.naoRelacional.neo4j" class="devs">
 
 							<dt>MongoDB
-							<dd><input type="text" name="ferramentas.bd.naoRelacional.mongoDb" class="devs">
+							<dd><input name="ferramentas.bd.naoRelacional.mongoDb" class="devs">
 
 							<dt>Redis
-							<dd><input type="text" name="ferramentas.bd.naoRelacional.redis" class="devs">
+							<dd><input name="ferramentas.bd.naoRelacional.redis" class="devs">
 						</dl>
 				</dl>
 		</dl>
@@ -238,49 +238,49 @@
 
 		<dl>
 			<dt>Testes
-			<dd><input type="text" name="praticas.testes" class="devs">
+			<dd><input name="praticas.testes" class="devs">
 				<dl>
 					<dt>Testes de unidade
-					<dd><input type="text" name="praticas.testes.unidade" class="devs">
+					<dd><input name="praticas.testes.unidade" class="devs">
 
 					<dt>End-to-end
-					<dd><input type="text" name="praticas.testes.endToEnd" class="devs">
+					<dd><input name="praticas.testes.endToEnd" class="devs">
 
 					<dt>Testes de Javascript
-					<dd><input type="text" name="praticas.testes.javascript" class="devs">
+					<dd><input name="praticas.testes.javascript" class="devs">
 				</dl>
 			<dt>UX
-			<dd><input type="text" name="praticas.ux" class="devs">
+			<dd><input name="praticas.ux" class="devs">
 				<dl>
 					<dt>Mobile First
-					<dd><input type="text" name="praticas.ux.mobileFirst" class="devs">
+					<dd><input name="praticas.ux.mobileFirst" class="devs">
 
 					<dt>Responsive
-					<dd><input type="text" name="praticas.ux.responsive" class="devs">
+					<dd><input name="praticas.ux.responsive" class="devs">
 
 					<dt>Lean UX
-					<dd><input type="text" name="praticas.ux.leanUx" class="devs">
+					<dd><input name="praticas.ux.leanUx" class="devs">
 				</dl>
 			<dt>Agile
-			<dd><input type="text" name="praticas.agile" class="devs">
+			<dd><input name="praticas.agile" class="devs">
 				<dl>
 					<dt>TDD
-					<dd><input type="text" name="praticas.agile.tdd" class="devs">
+					<dd><input name="praticas.agile.tdd" class="devs">
 
 					<dt>BDD
-					<dd><input type="text" name="praticas.agile.bdd" class="devs">
+					<dd><input name="praticas.agile.bdd" class="devs">
 
 					<dt>DDD
-					<dd><input type="text" name="praticas.agile.ddd" class="devs">
+					<dd><input name="praticas.agile.ddd" class="devs">
 
 					<dt>Processos
-					<dd><input type="text" name="praticas.agile.processo" class="devs">
+					<dd><input name="praticas.agile.processo" class="devs">
 
 					<dt>Métricas
-					<dd><input type="text" name="praticas.agile.metrica" class="devs">
+					<dd><input name="praticas.agile.metrica" class="devs">
 				</dl>
 			<dt>MV*
-			<dd><input type="text" name="praticas.mvStar" class="devs">
+			<dd><input name="praticas.mvStar" class="devs">
 		</dl>
 	</div>
 	<input type="submit" value="Acabeeeei!" />
