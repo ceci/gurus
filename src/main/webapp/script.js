@@ -4,7 +4,7 @@ $(document).ready(function () {
 	});
 });
 
-$("input").on("blur", function() {
+$("form").on("blur", "input", function() {
 	var valor = $(this).val();
 	if (valor) {
 		localStorage.setItem($(this).attr("name"), valor);
