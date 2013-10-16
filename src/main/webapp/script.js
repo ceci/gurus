@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	$("input[type=text]").each(function (indice, elemento) {
+	$("input[type=text], input:not([type])").each(function (indice, elemento) {
 		elemento.value = localStorage.getItem(elemento.name);
 	});
 });
